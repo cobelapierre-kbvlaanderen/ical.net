@@ -2,10 +2,14 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
     <Version>1.0.0</Version>
-    <Authors>Rian Stockbower, Douglas Day</Authors>
+    <Authors>Rian Stockbower, Douglas Day, Cobe Lapierre</Authors>
     <Company />
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>..\..\IcalNetStrongnameKey.snk</AssemblyOriginatorKeyFile>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageId>Ical.Net_standard</PackageId>
+    <Description>Frok ical.net support .net standard 2.0
+Removed .net full support</Description>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <DocumentationFile>bin\Release\Ical.Net.xml</DocumentationFile>
